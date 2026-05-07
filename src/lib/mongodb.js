@@ -21,3 +21,6 @@ export async function connectToDB() {
   cached.conn = await cached.promise;
   return cached.conn;
 }
+
+// Alias for backward compatibility
+export const connectToDatabase = connectToDB;
