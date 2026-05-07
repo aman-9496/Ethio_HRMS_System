@@ -1,4 +1,4 @@
-// Minimal ESLint config for Next.js 15
+// ESLint config - disabled during builds via next.config.mjs
 const eslintConfig = [
   {
     ignores: [
@@ -7,9 +7,6 @@ const eslintConfig = [
       "out/**",
       "build/**",
       "dist/**",
-      "**/*.config.js",
-      "**/*.config.mjs",
-      "**/*.config.ts",
     ],
   },
 ];
